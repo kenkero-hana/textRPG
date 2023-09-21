@@ -39,9 +39,9 @@ int main(void){
     printf("\n");
 
     printf("クエスト依頼書\n");
-    printf("e:EASY\n");
-    printf("n:NORMAL\n");
-    printf("h:HARD\n");
+    printf("１:EASY\n");
+    printf("２:NORMAL\n");
+    printf("３:HARD\n");
     scanf("%d", &Quest);
     switch (Quest)
     {
