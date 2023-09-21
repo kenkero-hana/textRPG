@@ -6,8 +6,8 @@ int job;
 typedef struct
 {
     char name[50];
-    int health;
-    int Score;
+    int level;
+    int gold;
 }player;
 
 
