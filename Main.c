@@ -2,6 +2,7 @@
 
 #include "start.h"
 #include "status.h"
+#include "battle.h"
 
 int main(void){
     int Quest = 0;
@@ -49,7 +50,7 @@ int main(void){
         printf("スライム討伐\n");
         printf("必要レベル：１\n");
         printf("取得ゴールド：100\n");
-        Battle();
+        Battle(Quest);
         break;
     case 2:
         printf("ゴブリン討伐\n");
